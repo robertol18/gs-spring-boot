@@ -1,7 +1,7 @@
 #!/bin/sh
 cd $(dirname $0)
 
-cd ../complete
+# cd ../complete
 
 mvn clean package
 ret=$?
@@ -17,7 +17,7 @@ exit $ret
 fi
 rm -rf build
 
-cd ../initial
+# cd ../initial
 
 mvn clean compile
 ret=$?

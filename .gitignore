@@ -8,6 +8,8 @@
 bin
 build
 target
+initial
+complete
 dependency-reduced-pom.xml
 *.sublime-*
 /scratch
